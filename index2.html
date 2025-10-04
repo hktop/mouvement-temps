@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Du mouvement et du temps – Raphaël Hadjadj</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#appendice">Appendice</a></li>
+        <li><a href="#critique">Critique à la critique</a></li>
+        <li><a href="#homme-blanc">L’homme blanc, sérieusement ?</a></li>
+        <li><a href="#langue">Une langue bien pendue</a></li>
+        <li><a href="#qui-parle">Qui parle ?</a></li>
+        <li><a href="#froid">Un réalisateur froid</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <article>
+      <h1>Du mouvement et du temps<br><span>Une histoire de la narration chez Anderson</span></h1>
+      <p class="auteur">Raphaël Hadjadj – 1er août 2025</p>
+
+      <section id="appendice">
+        <h2>Appendice</h2>
+        <p>Nous tentons ici de rédiger une première version de l’étude du premier tour du concours de l’ENS Louis-Lumière...</p>
+      </section>
+
+      <section id="critique">
+        <h2>Critique à la critique</h2>
+        <p>Nous ne saurions continuer à répéter les arguments classiques de la critique andersonnienne...</p>
+      </section>
+
+      <section id="homme-blanc">
+        <h2>L’homme blanc, sérieusement ?</h2>
+        <p>L’Ile aux chiens finit d’enfoncer le clou, l’œuvre d’Anderson éveille définitivement les soupçons...</p>
+      </section>
+
+      <section id="langue">
+        <h2>Une langue bien pendue !</h2>
+        <p>Le langage est la maison de l’être. Mais il est aussi un rien...</p>
+      </section>
+
+      <section id="qui-parle">
+        <h2>Qui parle ?</h2>
+        <p>L’œuvre d’Anderson est la concaténation d’une infinité d’œuvres...</p>
+      </section>
+
+      <section id="froid">
+        <h2>Un réalisateur froid ou humain trop humain</h2>
+        <p>Beaucoup ont pointé une absence de sentiment chez Anderson...</p>
+      </section>
+    </article>
+  </main>
+
+  <footer>
+    <p>© 2025 – Raphaël Hadjadj</p>
+  </footer>
+
+  <script>
+    // Défilement fluide
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+</body>
+</html>
