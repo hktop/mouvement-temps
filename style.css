@@ -78,17 +78,23 @@ main p {
    NOTES À DROITE (dans le texte)
    ============================== */
 .avec-note {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
+  position: relative;
+  margin-bottom: 2rem;
+  padding-right: 250px; /* espace réservé pour la note à droite */
 }
 
 .note-droite {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 230px;
   font-size: 0.9rem;
-  color: #aaa; /* couleur douce adaptée à ton thème sombre */
-  margin-left: 1rem;
-  white-space: nowrap;
+  color: #aaa;
+  text-align: left;
+  line-height: 1.4;
 }
+
+
 
 
 
