@@ -20,7 +20,7 @@ body {
   font-family: "Times New Roman", Times, serif;
   background-color: #0d0d0d;
   color: #e8e8e8;
-  line-height: 1.8;
+  line-height: 2.2;
   font-size: 1.05rem;
   padding-top: 60px;
   -webkit-font-smoothing: antialiased;
@@ -74,3 +74,4 @@ main p {
   text-align: justify;
   text-justify: inter-word; /* améliore la répartition des mots */
 }
+
