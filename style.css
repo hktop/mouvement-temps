@@ -66,4 +66,11 @@ nav a:hover {
 main {
   max-width: 800px;
   margin: 0 auto;
-  pa
+  padding: 2rem; /* espace intérieur autour du contenu */
+}
+
+/* Justification des paragraphes dans le contenu principal */
+main p {
+  text-align: justify;
+  text-justify: inter-word; /* améliore la répartition des mots */
+}
