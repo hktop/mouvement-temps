@@ -74,4 +74,21 @@ main p {
   text-align: justify;
   text-justify: inter-word; /* améliore la répartition des mots */
 }
+/* ==============================
+   NOTES À DROITE (dans le texte)
+   ============================== */
+.avec-note {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.note-droite {
+  font-size: 0.9rem;
+  color: #aaa; /* couleur douce adaptée à ton thème sombre */
+  margin-left: 1rem;
+  white-space: nowrap;
+}
+
+
 
