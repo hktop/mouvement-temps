@@ -93,3 +93,7 @@ main p {
   text-align: left;
   line-height: 1.4;
 }
+
+sup a {
+    color: aqua;
+}
